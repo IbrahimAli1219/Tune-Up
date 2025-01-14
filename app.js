@@ -95,5 +95,5 @@ res.setHeader('Expires', '0'); // Proxies.
         console.log('No session found, redirecting to login');
         res.redirect('/login');
     }
-});
+}); 
 
